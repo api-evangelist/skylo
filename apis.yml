@@ -1,9 +1,29 @@
 aid: skylo
 name: Skylo
-description: 'Skylo is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Skylo Technologies is a satellite communications company based in Mountain
+  View, California, operating a global Non-Terrestrial Network (NTN) that lets standard
+  smartphones and IoT cellular devices connect directly to satellites over 3GPP Release
+  17 direct-to-device (D2D) standards for SMS, sensor telemetry, and other low-bandwidth
+  messaging. Founded in 2017 and backed by DCM, SoftBank, Intel Capital, Innovation
+  Endeavors, BMW i Ventures, Samsung Catalyst, Next47, Seraphim Space, and NGP Capital,
+  Skylo has commercial service across the US, Brazil, Australia, New Zealand, and Europe.
+  Skylo does not publish a public REST/HTTP API; developer integration is device-level
+  (certified modules such as Quectel, Murata, Blues Notecard and Particle) with detailed
+  procedures gated behind a partner Knowledge Base. This API Evangelist profile tracks
+  the company and its developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/skylo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6a298ebef8689ee5ba0a576b/6a298ebef8689ee5ba0a5d12_logo-gradient-1.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Frontier Tech
+- Satellite
+- Connectivity
+- IoT
+- Non-Terrestrial Network
+- Direct-to-Device
+- Telecommunications
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/skylo-domain-security.yml
 - type: Website
   url: http://www.skylo.tech/
+- type: DeveloperPortal
+  url: https://www.skylo.tech/developer-documentation
+- type: Documentation
+  url: https://www.skylo.tech/developer-documentation
+- type: Support
+  url: https://www.skylo.tech/get-in-touch
+- type: Blog
+  url: https://www.skylo.tech/newsroom
+- type: GitHubOrganization
+  url: https://github.com/skylotech
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
