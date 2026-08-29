@@ -12,6 +12,17 @@ description: 'Skylo Technologies is a satellite communications company based in 
   procedures gated behind a partner Knowledge Base. This API Evangelist profile tracks
   the company and its developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/skylo/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
